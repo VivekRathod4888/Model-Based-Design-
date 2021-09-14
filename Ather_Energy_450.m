@@ -1,0 +1,13 @@
+M=320;      %Mass of vehicle      (kg)
+Md=80;      %Mass of driver       (kg)
+GVM=M+Md;   %Gross vehicle mass   (kg)
+g=9.81;     %Gravity cnstant      (m/s^2)
+GVW=GVM*g;  %Gross vehicle weight
+A=1.8585;    %frontal area        (m^2)
+rho=1.2250; %Air Density          (kg/m^3)
+Rw=0.2286;  %Radius of wheel      (m)
+cd=0.15;    %coefficient of drag
+crf=0.015;  %coefficient of rolling resistance
+GR=15;     %Gear Ratio
+Teff=0.85;  %transmission efficiency
+Drive_cycle =readmatrix('Artemis Rural Drive Cycle.xlsx');
